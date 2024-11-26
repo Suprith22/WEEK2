@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("Enter the number of unit sof eletrity consumed:");
+	scanf("%d",&a);
+	printf("The electricty bill would be Rs.%d",a*10);
+	return 0;
+}
